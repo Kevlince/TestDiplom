@@ -1,0 +1,29 @@
+{
+    "name": "your-project/vkr-api",
+    "description": "API для ВКР на тему Разработка веб-ориентированной системы для информационной поддержки студентов в процессе подготовки проектов",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.6",
+        "firebase/php-jwt": "^6.4",
+        "vlucas/phpdotenv": "^5.5",
+        "monolog/monolog": "^3.3",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "fakerphp/faker": "^1.20",
+        "mockery/mockery": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
